@@ -1,5 +1,5 @@
 <?php
-namespace c2b\components\worlds;
+namespace c2b\components\worlds\resources;
 
 use c2b\components\THasCharacteristics;
 use c2b\components\THasProperties;

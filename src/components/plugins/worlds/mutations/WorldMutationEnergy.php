@@ -5,7 +5,7 @@ use c2b\components\plugins\PluginChoiceAble;
 use c2b\components\properties\PropertyEnergySaturation;
 use c2b\components\worlds\characteristics\WorldCharacteristic;
 use c2b\components\worlds\properties\WorldProperty;
-use c2b\components\worlds\WorldResource;
+use c2b\components\worlds\resources\WorldResource;
 use c2b\interfaces\energies\IEnergy;
 use c2b\interfaces\worlds\characteristics\IWorldCharacteristic;
 use c2b\interfaces\worlds\IWorld;

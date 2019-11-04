@@ -17,6 +17,6 @@ class WorldCharacteristic extends Parameter implements IWorldCharacteristic
      */
     protected function getSubjectForExtension(): string
     {
-        return static::SUBJECT;
+        return 'c2b.world.characteristic';
     }
 }

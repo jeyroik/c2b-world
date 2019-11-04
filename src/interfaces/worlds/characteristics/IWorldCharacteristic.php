@@ -11,5 +11,4 @@ use extas\interfaces\parameters\IParameter;
  */
 interface IWorldCharacteristic extends IParameter
 {
-    const SUBJECT = 'c2b.world.characteristic';
 }

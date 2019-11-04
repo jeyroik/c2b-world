@@ -5,6 +5,7 @@ use c2b\components\THasCharacteristics;
 use c2b\components\THasProperties;
 use c2b\interfaces\worlds\IWorld;
 use c2b\interfaces\worlds\resources\IWorldResource;
+use c2b\components\worlds\resources\WorldResource;
 use extas\components\Item;
 use extas\components\THasName;
 
@@ -102,6 +103,8 @@ class World extends Item implements IWorld
     {
         $resources = $this->getResourcesData();
         $resources[$resource->getName()] = $resource->__toArray();
+
+        return $this;
     }
 
     /**
