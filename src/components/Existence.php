@@ -55,6 +55,8 @@ class Existence extends Item implements IExistence
      */
     public function playWorld(IWorld &$world): IExistence
     {
+        $world->incIteration();
+
         $worldResources = $world->getResources();
 
         // насыщение
