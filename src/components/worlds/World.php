@@ -103,6 +103,7 @@ class World extends Item implements IWorld
     {
         $resources = $this->getResourcesData();
         $resources[$resource->getName()] = $resource->__toArray();
+        $this->config[static::FIELD__RESOURCES] = $resources;
 
         return $this;
     }

@@ -56,6 +56,7 @@ trait THasCharacteristics
         $chars = $this->getCharacteristicsData();
 
         $chars[$characteristic->getName()] = $characteristic->__toArray();
+        $this->config[IHasCharacteristics::FIELD__CHARACTERISTICS] = $chars;
 
         return $this;
     }

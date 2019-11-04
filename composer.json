@@ -5,7 +5,8 @@
     "vlucas/phpdotenv": "^2.4",
     "jeyroik/extas-foundation": "*",
     "jeyroik/extas-base": "*",
-    "jeyroik/extas-installer": "*"
+    "jeyroik/extas-installer": "*",
+    "jeyroik/extas-templates": "*"
   },
   "autoload": {
     "psr-4": {

@@ -55,6 +55,7 @@ trait THasProperties
     {
         $props = $this->getPropertiesData();
         $props[$property->getName()] = $property->__toArray();
+        $this->config[IHasProperties::FIELD__PROPERTIES] = $props;
 
         return $this;
     }
