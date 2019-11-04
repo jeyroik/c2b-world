@@ -1,0 +1,26 @@
+{
+  "name": "c2b/world",
+  "plugins": [
+    {
+      "class": "c2b\\components\\plugins\\PluginInstallWorlds",
+      "stage": "extas.install"
+    },
+    {
+      "class": "c2b\\components\\plugins\\worlds\\mutations\\WorldMutationEnergy",
+      "stage": "world.mutation"
+    },
+    {
+      "class": "c2b\\components\\plugins\\resources\\PluginResourceEnergySaturation",
+      "stage": "world.energy_base.saturation"
+    }
+  ],
+  "worlds": [
+    {
+      "name": "primitive",
+      "iteration": 0,
+      "resources": [],
+      "properties": [],
+      "characteristics": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "jeyroik/x2b-world",
+  "description": "Extas installer package",
+  "require": {
+    "vlucas/phpdotenv": "^2.4",
+    "jeyroik/extas-foundation": "*",
+    "jeyroik/extas-base": "*",
+    "jeyroik/extas-installer": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "c2b\\": "src/"
+    }
+  }
+}
