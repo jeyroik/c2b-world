@@ -1,5 +1,11 @@
 {
   "name": "c2b/world",
+  "package_classes": [
+    {
+      "interface": "c2b\\interfaces\\worlds\\IWorldRepository",
+      "class": "c2b\\components\\worlds\\WorldRepository"
+    }
+  ],
   "plugins": [
     {
       "class": "c2b\\components\\plugins\\PluginInstallWorlds",
