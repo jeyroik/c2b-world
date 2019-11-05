@@ -115,8 +115,8 @@ class Existence extends Item implements IExistence
     protected function worldResourceStage(IWorld $world, array $worldResources, $stage)
     {
         foreach ($worldResources as $worldResource) {
-            $stage = 'world.' . $worldResource->getName() . '.' . $stage;
-            foreach ($this->getPluginsByStage($stage) as $plugin) {
+            $curStage = 'world.' . $worldResource->getName() . '.' . $stage;
+            foreach ($this->getPluginsByStage($curStage) as $plugin) {
                 $plugin($world, $worldResource);
             }
         }
@@ -130,8 +130,8 @@ class Existence extends Item implements IExistence
     protected function worldResourceChanceStage(IWorld $world, array $worldResources, $stage)
     {
         foreach ($worldResources as $worldResource) {
-            $stage = 'world.' . $worldResource->getName() . '.' . $stage;
-            foreach ($this->getPluginsByStage($stage) as $plugin) {
+            $curStage = 'world.' . $worldResource->getName() . '.' . $stage;
+            foreach ($this->getPluginsByStage($curStage) as $plugin) {
                 if ($this->existenceChoice($plugin)) {
                     $plugin($world, $worldResource);
                 }
