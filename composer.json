@@ -2,7 +2,6 @@
   "name": "jeyroik/c2b-world",
   "description": "World package for c2b",
   "require": {
-    "vlucas/phpdotenv": "^2.4",
     "jeyroik/extas-foundation": "*",
     "jeyroik/extas-base": "*",
     "jeyroik/extas-installer": "*",
