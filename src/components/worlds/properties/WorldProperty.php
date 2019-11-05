@@ -3,8 +3,8 @@ namespace c2b\components\worlds\properties;
 
 use c2b\interfaces\worlds\properties\IWorldProperty;
 use extas\components\Item;
+use extas\components\parameters\THasParameters;
 use extas\components\THasName;
-use extas\components\THasClass;
 
 /**
  * Class WorldProperty
@@ -15,7 +15,7 @@ use extas\components\THasClass;
 class WorldProperty extends Item implements IWorldProperty
 {
     use THasName;
-    use THasClass;
+    use THasParameters;
 
     /**
      * @return string
